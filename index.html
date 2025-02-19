@@ -1,0 +1,423 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Sean Osawa McElhenny Portfolio
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#project overview" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Sean Osawa<br>McElhenny</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A Behavioral Data Science student based in<br>Amsterdam, Netherlands.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="project overview">
+      <div class="row">
+        <h2 class="section-title">Project Overview</h2>
+        
+        <!-- Carousel Section -->
+        <div class="carousel-container">
+          <div class="carousel">
+            <!-- Carousel Item 1 -->
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <img src="./images/RecipePal.png" class="carousel-image" alt="Project 1" />
+                <h3 class="carousel-title">Recipe Pal</h3>
+                <p class="carousel-description">Startup App to generate recipes using image recognition and AI.</p>
+                <a href="#project1" class="btn">View Project</a>
+              </div>
+            </div>
+            <!-- Carousel Item 2 -->
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <img src="./images/Demenchat.png" class="carousel-image" alt="Project 2" />
+                <h3 class="carousel-title">Generative AI Chatbot</h3>
+                <p class="carousel-description">Creation of an AI chatbot to help patients with Dementia.</p>
+                <a href="#project2" class="btn">View Project</a>
+              </div>
+            </div>
+            <!-- Carousel Item 3 -->
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <img src="./images/kaggle.webp" class="carousel-image" alt="Project 3" />
+                <h3 class="carousel-title">Machine Learning Series</h3>
+                <p class="carousel-description">Quartet of projects from basic to advanced Machine Learning.</p>
+                <a href="#project3" class="btn">View Project</a>
+              </div>
+            </div>
+            <!-- Carousel Item 4 -->
+            <div class="carousel-item">
+              <div class="carousel-content">
+                <img src="./images/clients.png" class="carousel-image" alt="Project 4" />
+                <h3 class="carousel-title">Client Projects</h3>
+                <p class="carousel-description">My portfolio of projects working with real clients and real business cases.</p>
+                <a href="#project4" class="btn">View Project</a>
+              </div>
+          </div>
+        </div>
+        </div>
+
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+          <!-- Each div with the work__box class is a project. -->
+          <div class="work__box">
+            <div class="work__text" id="project1">
+              <h3>Recipe Pal: AI-Powered Recipe Generator App</h3>
+              <p>
+                Tasked by the University of Amsterdam to develop a startup. 
+                My team developed an app that uses AI-powered computer vision to recognize food ingredients and 
+                generate personalized food recipes based on user preferences utilizing API calls. 
+                The app was a demo and not yet published on app stores.
+              </p>
+              <ul class="work__list">
+                <li>Flutterflow</li>
+                <li>Flutter</li>
+                <li>Buildship</li>
+                <li>X-Code</li>
+                <li>Android Studio</li>
+                <li>API Integrations</li>
+                <li>UX Design</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://www.youtube.com/watch?v=E95ICt4Ewnw" target="_blank" class="link__text">
+                  View Demo <span>&rarr;</span>
+                </a>
+                <a href="https://www.youtube.com/watch?v=E95ICt4Ewnw" title="View Source Code" target="_blank">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/RecipePal.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text" id="project2">
+              <h3>Generative AI Chatbot for Dementia Care</h3>
+              <p>
+                My team developed a python based generative language model tailored to care for dementia patients. 
+                The Meta LLaMa 3 1B model was fine tuned and integrated with RAG to be more empathetic 
+                and offered cognitive support to patients through personalized conversational responses.
+              </p>
+              <ul class="work__list">
+                <li>NLP</li>
+                <li>LLM</li>
+                <li>Hugging Face</li>
+                <li>Tensor Flow</li>
+                <li>Meta LLaMa 3</li>
+                <li>RAG</li>
+                <li>Chatbot Development</li>
+                <li>Fine-tuning</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://www.kaggle.com/code/seanmcelhenny/dlip-project-dementia-main" class="link__text">
+                  View on Kaggle <span>&rarr;</span>
+                </a>
+                <a href="#">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/Demenchat.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work_box">
+            <div class="work__text" id="project3">
+            <h3>Machine Learning Project Series</h3>
+            <p>
+              These are machine learning projects I have worked on as part of the Behavioral Data Science curriculum. 
+              This series of 4 covers the full spectrum of traditional machine learning techniques using R, ranging from fundamental regression to more advanced methods
+              including decision trees and support vector machines.
+            </p>
+          </div>
+        </div>
+
+        <div class="ml-series">
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Personality Profiling</h3>
+              <p>Developed machine learning models to extract insights manually from text and audiovisual data, 
+                predicting personality traits based on youtube vlogs.</p>
+            </div>
+            <ul class="work__list">
+              <li>Feature Extraction</li>
+              <li>Feature Cleaning</li>
+              <li>Lexicons</li>
+              <li>K-Nearest Neighbours</li>
+              <li>Linear Regression</li>
+              <li>Model Evaluation</li>
+            </ul>
+            <div class="work__links">
+              <a href="https://www.kaggle.com/code/imonkau/bigfive-11" class="link__text">
+                View on Kaggle <span>&rarr;</span>
+              </a>
+            </div>
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3> Sentiment Analysis</h3>
+              <p>Built on previous project to develop a text analysis model using automated feature selection to predict customer satisfaction based on 
+                Amazon product reviews.</p>
+            </div>
+            <ul class="work__list">
+              <li>TF-IDF</li>
+              <li>Lexicons</li>
+              <li>Cross Validation</li>
+              <li>Lasso Regularization</li>
+              <li>Ridge Regularization</li>
+              <li>Principal Component Analysis</li>
+            </ul>
+            <div class="work__links">
+              <a href="https://www.kaggle.com/code/seanmcelhenny/review-09-final-draft" class="link__text">
+                View on Kaggle <span>&rarr;</span>
+              </a>
+          </div>
+        </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Signal Feature Detection</h3>
+              <p>Designed a classification model for human activities, to detect postural transitions using smartphone accelerometer and gyroscope data, 
+                that can be used for improving health monitoring systems.</p>
+            </div>
+            <ul class="work__list">
+              <li>Signal Feature Engineering</li>
+              <li>Time & Frequency Domain</li>
+              <li>Naive Bayes</li>
+              <li>K-Nearest Neighbours</li>
+              <li>Lasso Regularization</li>
+              <li>Ridge Regularization</li>
+            </ul>
+            <div class="work__links">
+              <a href="https://www.kaggle.com/code/robinzehrer/signals03-physicalactivityrecognition-bda2024" class="link__text">
+                View on Kaggle <span>&rarr;</span>
+              </a>
+              </div> 
+          </div>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Facial Expression Recognition for Emotions</h3>
+              <p>Built a robust facial expression classifier to detect emotions from images, leveraging the Cohn-Kanade (CK) dataset for training.</p>
+            </div>
+            <ul class="work__list">
+              <li>Image Features (HOG, PSD, Edges)</li>
+              <li>Decision Trees</li>
+              <li>LDA</li>
+              <li>QDA</li>
+              <li>Support Vector Machines</li>
+              <li>Data Augmentation</li>
+            </ul>
+            <div class="work__links">
+              <a href="https://www.kaggle.com/code/seanmcelhenny/group-emo-11" class="link__text">
+                View on Kaggle <span>&rarr;</span>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="section-title">Client Projects</h2>
+      <div class="client-projects">
+      
+        <div class="client__work__box" id="project4">
+          <div class="client__work__text">
+            <h3>Interactive Teacher Dashboard for Prowise</h3>
+            <p>
+              Developed a dynamic and interactive teacher dashboard for Prowise, a Dutch EdTech company. 
+              The dashboard was designed to help teachers manage their classes, 
+              create assignments, and track student progress. The project was developed
+              using SQL and R, interactive elements were built using Plotly.
+            </p>
+            <ul class="work__list">
+              <li>R</li>
+              <li>SQL</li>
+              <li>Tidyverse</li>
+              <li>Plotly</li>
+            </ul>
+            <div class="work__links">
+              <a href="plot.html" class="link__text">View Dashboard <span>&rarr;</span></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="client__work__box">
+          <div class="client__work__text">
+            <h3>Cost-Efficient Math Learning for Stichting De Verre Bergen</h3>
+            <p>
+              Hired as consultants for Stichting De Verre Bergen, a Dutch non-profit organization, to collaborate with their Math Faculty: 
+              Rekenfaculteit to develop a more cost-efficient math learning platform. The analysis followed the CRISP DM approach and was developed using R and SQL. 
+              Finalized suggestions were presented to their executive team.
+            </p>
+            <ul class="work__list">
+              <li>R</li>
+              <li>SQL</li>
+              <li>Tidyverse</li>
+              <li>GG-plots</li>
+              <li>CRISP DM</li>
+              <li>Psychometrics</li>
+            </ul>
+            <div class="work__links">
+              <a href="https://drive.google.com/file/d/1ReXAUnG5rT6hu10tddcgjSDfP8C9YI9z/view?usp=sharing" class="link__text">View Report <span>&rarr;</span></a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </section>
+    
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Clients</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="./images/logo-uva.png" class="client__logo" alt="University of Amsterdam" />
+          <img src="./images/stichting_de_verre_bergen_logo.webp" class="client__logo" alt="Stichting De Verre Bergen" />
+          <img src="./images/prowise.png" class="client__logo" alt="Prowise" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I am currently a Masters student specializing in Behavioral Data Science at the University of Amsterdam.  
+              This rigorous academic pursuit complements my professional experience,  
+              equipping me to distill complex data into actionable intelligence for business decisions.
+            </p>
+            
+            <p>
+              I have worked on several data science projects both for school and real clients. These experiences have deepened my passion
+              for leveraging data to create meaningful impact. I aspire to continue my journey in data science to work on projects that 
+              contribute positively to society and address global issues.
+            </p>
+            
+            <p>
+              My main interest areas are in sports analytics, sustainability, and cutting edge AI applications.
+            </p>
+            
+            <p>
+              Beyond my academic and professional pursuits, I am a passionate rugby player and sports fanatic.  
+              I also enjoy traveling and exploring new cultures and cuisines, completing my ever-curious mind.
+            </p>
+            
+            <!-- Provide a link to your resume -->
+            <a href="CV2025.pdf" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/ProfilePhoto.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a fast learner who can adapt to new technologies and work in a fast-paced environment? 
+          I am always open to new opportunities and collaborations. Feel free to reach out to me.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:sean.osawa.mcelhenny@gmail.com" class="btn">sean.osawa.mcelhenny@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/s160677" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/sean-osawa-mcelhenny-92b165199/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
